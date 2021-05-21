@@ -1,0 +1,19 @@
+#!/bin/bash
+
+#find -name "my_random_data.txt">the_path
+myfile=$(find -name "my_random_data.txt")
+echo "$myfile"
+resultsof0=$(grep -o "0" ${myfile} | wc -l)
+echo ${resultsof0}
+ exit
+
+echo "$(cat the_path)" | rev | cut -d'/' -f2- | rev
+cd ./gfd_course/linux/data-shell/project1/find_the_file/b/c/d/e/f/g
+
+grep "0" my_random_data.txt
+
+grep -c "0" my_random_data.txt
+
+grep -c "0" my_random_data.txt > resultof0
+
+cat resultof0
